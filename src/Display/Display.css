@@ -1,0 +1,16 @@
+.Data{
+    border: 1px solid black;
+    border-radius:30px;
+    margin-right:50px;
+    margin-top:50px;
+
+}
+@media (max-width: 575.98px) {
+    /* Styles for small devices go here */
+    .Data{
+       top: 150px;
+       position: relative;
+       width: 300px;
+       right: 100px;
+    }
+  }

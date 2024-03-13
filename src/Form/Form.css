@@ -1,0 +1,55 @@
+.App{
+    border-radius: 20px;
+    width: 20%;
+    margin-left: 500px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-left: 100px;
+}
+#btn{
+    margin-left: 50px;
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#btn:hover{
+background-color: white;
+color: black;
+}
+
+@media (max-width: 575.98px) {
+    /* Styles for small devices go here */
+
+    .App{
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+       
+       width: 50%;
+       right: 70px;
+       position: absolute;
+       top: 50px;
+       height: 450px;
+       
+    }
+    #btn{
+        height: 40px;
+        width: 150px;
+        position: absolute;
+        top: 350px;
+        left: 70px;
+    }
+   
+
+  }
+
+  @media (min-width: 576px) and (max-width: 991.98px) {
+    /* Styles for medium devices go here */
+    .App{
+        border: 2px solid red;
+        width: 50%;
+        position: absolute;
+        right: 150px;
+    }
+  }
